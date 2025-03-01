@@ -1,0 +1,26 @@
+.toDoItem {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #fff;
+
+        .close {
+            display: block;
+            visibility: visible;
+        }
+    }
+}
+
+.label {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.close {
+    cursor: pointer;
+    visibility: hidden;
+}
